@@ -2,7 +2,7 @@ Estudantes:
 André Ayello de Nobrega RM561754
 André Gouveia de Lima RM564219
 Caio Castelão Carminato RM563630
-Guilherme Vasques Tamai  RM563276
+Guilherme Vasques Tamai RM563276
 Mirella Mascarenhas RM562092
 Vitor Komura de Freitas RM563694
 
@@ -15,8 +15,8 @@ O dataset inclui as seguintes variáveis:
 
 date: data no formato dd/mm/yyyy
 time: horário no formato hh:mm:ss
-global_active_power: potência ativa global média por minuto (kW)
-global_reactive_power: potência reativa global média por minuto (kW)
+global_active_power: potência ativa global média por minuto (kW) -> Global Active Power: energia realmente consumida pelos aparelhos, convertida em trabalho útil (luz, calor, movimento), medida em kW.
+global_reactive_power: potência reativa global média por minuto (kW) -> Global Reactive Power: energia que não é consumida de fato, mas necessária para manter campos elétricos e magnéticos em motores e transformadores.
 voltage: tensão média por minuto (V)
 global_intensity: intensidade de corrente média (A)
 sub_metering_1: consumo de energia (Wh) da cozinha (lava-louça, forno, micro-ondas)
