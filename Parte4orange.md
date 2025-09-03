@@ -1,5 +1,8 @@
 ## Dedicado para responder as perguntas da parte 4 do CP1:
 
+### Workflow 
+![fluxo completo](img/inteiro.jpg)
+
 ### Questão 36
 Resposta: Há 2,08M de registros e 9 variáveis.
 
