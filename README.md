@@ -1,1 +1,31 @@
-oiii isso é **negrito**
+Estudantes:
+André Ayello de Nobrega RM561754
+André Gouveia de Lima RM564219
+Caio Castelão Carminato RM563630
+Guilherme Vasques Tamai RM563276
+Mirella Mascarenhas RM562092
+Vitor Komura de Freitas RM563694
+
+Descrição do dataset: 
+
+Este repositório contém o dataset Individual Household Electric Power Consumption, coletado em uma residência localizada em Sceaux (7 km de Paris, França). 
+Os dados foram registrados minuto a minuto, entre dezembro de 2006 e novembro de 2010 (47 meses), totalizando 2.075.259 medições.
+
+O dataset inclui as seguintes variáveis:
+
+date: data no formato dd/mm/yyyy
+time: horário no formato hh:mm:ss
+global_active_power: potência ativa global média por minuto (kW) -> Global Active Power: energia realmente consumida pelos aparelhos, convertida em trabalho útil (luz, calor, movimento), medida em kW.
+global_reactive_power: potência reativa global média por minuto (kW) -> Global Reactive Power: energia que não é consumida de fato, mas necessária para manter campos elétricos e magnéticos em motores e transformadores.
+voltage: tensão média por minuto (V)
+global_intensity: intensidade de corrente média (A)
+sub_metering_1: consumo de energia (Wh) da cozinha (lava-louça, forno, micro-ondas)
+sub_metering_2: consumo de energia (Wh) da lavanderia (máquina de lavar, secadora, geladeira, iluminação)
+sub_metering_3: consumo de energia (Wh) do aquecedor de água e ar-condicionado
+
+A diferença entre o consumo total e a soma das submedições pode ser calculada com a fórmula:
+(global_active_power × 1000 ÷ 60) – sub_metering_1 – sub_metering_2 – sub_metering_3, representando outros aparelhos da casa não monitorados diretamente.
+
+O dataset possui cerca de 1,25% de valores ausentes, mas todos os timestamps estão presentes. Valores faltantes aparecem como campos vazios entre os separadores (;).
+
+Este conjunto pode ser usado para análise de consumo energético, previsão de demanda, estudos de eficiência elétrica e desenvolvimento de modelos de machine learning.
